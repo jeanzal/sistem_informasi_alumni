@@ -1,0 +1,164 @@
+.halaman{
+	margin: 0 auto;
+	width: 100%;
+}
+.header {
+	width: 100%;
+	background-color: 
+}
+.teks{
+	font-size: 13pt;
+	font-weight: bold;
+}
+.teks small{
+	font-weight: bold;
+	font-size: 9pt;
+}
+.teks small a{
+	color: white;
+}
+.teks small a:hover{
+	text-decoration: none;
+}
+.menu li{
+	padding: 10px;
+}
+.menu li a:hover{
+	border-bottom: 3px solid white;
+	color: white;
+	transition: 1s;
+}
+.isi{
+	width: 100%;
+	padding: 30px;
+}
+.beranda{
+	width: 90%;
+	padding: 20px;
+	/*background-color: #b3b4b5;*/
+	margin: 0% 0% 5% 5%;
+	border-radius: 3px;
+}
+.beranda-kiri{
+	width: 58%;
+	background-color: #b3b4b5;	
+	float: left;
+	border-radius: 3px;
+	padding: 25px;
+	color: #383838;
+}
+.beranda-kanan{
+	width: 38%;
+	background-color: #b3b4b5;
+	float:right;
+	padding: 10px;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	color: #383838;
+}
+.beranda-kanan p{
+	text-align: justify;
+	margin-top: 20px;
+}
+.slidee2{
+	width: 70%;
+	margin: 0 auto;
+}
+.clearr{
+	clear: both;
+}
+.detail-foto{
+	padding: 10px;
+	margin-top: 10px;
+}
+.kotak-detail{
+	width: 100%;
+}
+.kotak-detail label{
+	width: 48%;
+}
+.grafik{
+	width: 100%;
+	margin: 0 auto;
+}
+.grafik h6{
+	text-align: center;
+}
+.tentang{
+	width: 100%;
+}
+.tentang_kiri{
+	width: 48%;
+	float: left;
+	padding: 1%;
+}
+.tentang_kanan{
+	width: 48%;
+	padding: 1%;
+	float: right;
+}
+.text{
+	text-align: justify;
+}
+.kotak-komen{
+	width: 50%;
+	margin-top: 10px;
+}
+.daftar-komen{
+	width: 100%;
+	height: 180px;
+	overflow-y: scroll; 
+}
+.komentar{
+	width: 96%;
+	background-color: #cacaca;
+	padding: 2%;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+@media screen and (max-width: 1000px){
+	.isi{
+		padding: 0;
+	}
+	.beranda{
+		width: 100%;
+		margin: 0;
+		border-radius: 0;
+		padding: 0;
+	}
+	.beranda-kiri{
+		width: 100%;
+		float: none;
+		margin-bottom: 10px;
+		border-radius: 0;
+	}
+	.beranda-kanan{
+		width: 100%;
+		margin-bottom: 10px;
+		float: none;
+		border-radius: 0
+	}
+	.alumni{
+		width: 100%;
+		padding: 10px;
+	}
+	.tentang{
+		width: 96%;
+		padding: 2%;
+	}
+	.tentang_kiri{
+		float: none;
+		width: 100%;
+	}
+	.tentang_kanan{
+		float: none;
+		width: 100%;
+	}
+	.kotak-komen{
+		width: 100%;
+	}
+	.daftar-komen{
+		overflow-y: auto;
+		height: auto;
+	}
+}
